@@ -1,0 +1,17 @@
+@use '@carbon/layout';
+@use '@carbon/colors';
+
+.lead-space {
+    margin-top: 3rem;
+    background: colors.$gray-20;
+    display: flex;
+    // flex-direction: column;
+    min-height: 20rem;
+    padding-top: 1rem;
+    // color: #ffffff;
+
+    h1 {
+        font-weight: 500;
+        font-size: 3rem;
+    }
+}
